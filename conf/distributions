@@ -1,0 +1,7 @@
+Origin: meets2tarun
+Label: event-os
+Suite: stable
+Codename: zesty
+Architectures: amd64
+Components: main
+Description: ARM packages for event-os

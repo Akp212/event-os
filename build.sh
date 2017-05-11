@@ -16,3 +16,12 @@ mirror=${2:-"http://archive.ubuntu.com/ubuntu/"}
 #   Use '\*' for all langs, 'en' for English.
 # Install language with the most popcon
 gnomelanguage=${3:-'{en}'}	#
+
+
+# Copy the source.list to enable universe / multiverse in the chroot, and eventually additional repos.
+sudo cp -v event-metapackage_1.0_all.deb chroot
+
+# Install event-os-metapackage
+dpkg -i event-metapackage_*_all.deb
+apt-get install -f
+

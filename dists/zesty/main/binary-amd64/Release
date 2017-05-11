@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: meets2tarun
+Label: event-os
+Architecture: amd64
+Description: ARM packages for event-os
