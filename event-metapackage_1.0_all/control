@@ -10,7 +10,7 @@ Package: event-metapackage
 # Version: <enter version here; defaults to 1.0>
 Maintainer: Tarun Kumar <meets2tarun@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: vlc, libreoffice, gimp, inkscape, firefox, chrome, chromium, owncloud, dropbox, git, google-talkplugin
+Depends: vlc, libreoffice, gimp, inkscape, firefox, chromium-browser, nautilus-dropbox, git
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>

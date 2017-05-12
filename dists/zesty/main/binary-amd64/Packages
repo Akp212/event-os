@@ -3,14 +3,14 @@ Version: 1.0
 Architecture: all
 Maintainer: Tarun Kumar <meets2tarun@gmail.com>
 Installed-Size: 9
-Depends: vlc, libreoffice, gimp, inkscape, firefox, chrome, chromium, owncloud, dropbox, git, google-talkplugin
+Depends: vlc, libreoffice, gimp, inkscape, firefox, chromium-browser, nautilus-dropbox, git
 Multi-Arch: foreign
 Priority: extra
 Section: misc
 Filename: pool/main/e/event-metapackage/event-metapackage_1.0_all.deb
-Size: 2172
-SHA256: 59cabbdbe743e86d4409e817d50f99a7c74d27aedb67956ffe548fa05c4c0eea
-SHA1: 7d8a3a50b33bac37f1205bf6f1b473d8d2205d42
-MD5sum: 14849d155b8d5e0f422a5d6c30fc73a2
+Size: 2140
+SHA256: 2858583730e7beac3cbfaf45deaf8bc2aa3bd137282851e9e18501646d617f5f
+SHA1: 2091065550fb39b7f90b54b8a8903646a89254d7
+MD5sum: 19a31252e40a9bbcb906275e2aa3a052
 Description: It is metapackages which consists of essential packages
 

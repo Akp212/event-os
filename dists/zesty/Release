@@ -2,19 +2,19 @@ Origin: meets2tarun
 Label: event-os
 Suite: stable
 Codename: zesty
-Date: Thu, 11 May 2017 03:41:00 UTC
+Date: Fri, 12 May 2017 04:21:41 UTC
 Architectures: amd64
 Components: main
 Description: ARM packages for event-os
 MD5Sum:
- a1f05c686a7c025a20308b8bd9b80473 598 main/binary-amd64/Packages
- 10cb5736c9c3648e92b2b040c10278c8 428 main/binary-amd64/Packages.gz
+ 3536d6f23a459970ab790bc3773978c2 578 main/binary-amd64/Packages
+ b906f1b0aff29143cb3f1122350acb07 414 main/binary-amd64/Packages.gz
  fdba526c3854ab6f507c95c12dabafca 127 main/binary-amd64/Release
 SHA1:
- 2413d8b364eb08f32358d57cac458c2372b2e232 598 main/binary-amd64/Packages
- 5607989eb9e1a413bec7d70aa2497c4b2ea47b02 428 main/binary-amd64/Packages.gz
+ 6505519588d95191839dc82988f20ae01d0175ec 578 main/binary-amd64/Packages
+ 1854b015bbf3f82ceb88ad5fe170d4cf5aa20783 414 main/binary-amd64/Packages.gz
  456529906a18ebb83e572c161ffb900b065df9fa 127 main/binary-amd64/Release
 SHA256:
- 3af820c93f17cbf04020cb6dadc7660b678f83583ae65e187d18c5abf4a9f37c 598 main/binary-amd64/Packages
- 72a6cecf5a6550e288bf01ff745bda98853202b1bb44d0a1ac031360129d28bd 428 main/binary-amd64/Packages.gz
+ 77ea4675be00987698a2ef638f56a45d14354603b4a019fe1c661d1a9b1027d6 578 main/binary-amd64/Packages
+ 2ccadd61b849f63858274aad059caa70dfede12e2d4a35d85d8744511ce7e996 414 main/binary-amd64/Packages.gz
  f704616d63c7b583b23a42d46d997adb188cfdb6cc1e9f2ac467313cc3c0f52f 127 main/binary-amd64/Release
