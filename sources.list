@@ -46,3 +46,7 @@ deb http://security.ubuntu.com/ubuntu zesty-security multiverse
 
 #Lubuntu Repository
 #deb http://ppa.launchpad.net/lubuntu-desktop/ppa/ubuntu zesty main
+
+#Google Repository
+deb http://dl.google.com/linux/chrome/deb/ stable main
+
