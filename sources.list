@@ -50,3 +50,6 @@ deb http://security.ubuntu.com/ubuntu zesty-security multiverse
 #Google Repository
 deb http://dl.google.com/linux/chrome/deb/ stable main
 
+#added the line of mydebs
+deb file:/usr/local/mydebs ./
+
