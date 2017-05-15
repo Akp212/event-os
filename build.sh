@@ -25,3 +25,19 @@ sudo cp -v event-metapackage_1.0_all.deb chroot
 dpkg -i event-metapackage_*_all.deb
 apt-get install -f
 
+
+# Mount needed pseudo-filesystems
+sudo mount --rbind /sys chroot/sys
+sudo mount --rbind /dev chroot/dev
+sudo mount -t proc none chroot/proc
+
+# Work *inside* the chroot
+sudo chroot chroot <<EOF
+# Set up several useful shell variables
+export CASPER_GENERATE_UUID=1
+export HOME=/root
+export TTY=unknown
+export TERM=vt100
+export DEBIAN_FRONTEND=noninteractive
+export LANG=C
+export LIVE_BOOT_SCRIPTS="casper lupin-casper"
