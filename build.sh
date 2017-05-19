@@ -41,3 +41,20 @@ export TERM=vt100
 export DEBIAN_FRONTEND=noninteractive
 export LANG=C
 export LIVE_BOOT_SCRIPTS="casper lupin-casper"
+
+#  To allow a few apps using upstart to install correctly. JM 2011-02-21
+dpkg-divert --local --rename --add /sbin/initctl
+ln -s /bin/true /sbin/initctl
+
+# Add key for third party repo
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E1098513
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1EBD81D9
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 91E7EE5E
+
+# Update in-chroot package database
+apt-get -q update
+
+# Install core packages
+apt-get -q -y --purge install ubuntu-standard casper lupin-casper \
+  laptop-detect os-prober linux-generic
+
