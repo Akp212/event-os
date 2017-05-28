@@ -2,7 +2,7 @@
 # lxgames-build.sh -- creates an LXgames LiveCD ISO, based on lubuntu-build.sh
 # Author: Team
 # Based heavily on HOWTO information by
-#   Julien Lavergne <gilir@ubuntu.com>
+# Julien Lavergne <gilir@ubuntu.com>
 # Version: 20110303
 
 set -eu				# Be strict
