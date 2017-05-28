@@ -4,4 +4,4 @@ language: generic
 sudo: required
 
 script:
-  - ./build.sh
+  - sudo ./build.sh
