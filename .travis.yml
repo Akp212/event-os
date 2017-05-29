@@ -13,11 +13,3 @@ before_deploy:
 
 notifications:
   slack: fossasia:3pMkQrSogvEMfnu9aJDW2ZYC
-
-deploy:
-  - provider: releases
-    skip_cleanup: true
-    file_glob: true # http://stackoverflow.com/a/28579635/1320237
-    file: "/home/travis/${image_name}"
-    on:
-      branch: master
