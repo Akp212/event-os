@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Starting the script
-echo "Starting aptRepoUpdater authored by Abishek V Ashok with love for FOSSASIA"
+echo "Starting aptRepoUpdater authored by Tarun Kumar with love for FOSSASIA"
 echo "..."
 
 # Create the new directory to work in, these will get cleaned by Travis so no worries
