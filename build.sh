@@ -78,27 +78,7 @@ apt-get -q update
 apt-get -q -y --purge install ubuntu-standard casper lupin-casper \
   laptop-detect os-prober linux-generic
 
-# Install base packages
-apt-get -q -y --purge install --no-install-recommends \
-  cinnamon-desktop-environment vlc
-
-# Archive Manager
-apt-get -q -y --purge install file-roller unrar
-
-# lubuntu-restricted-extras
-apt-get -q -y --purge install lubuntu-restricted-extras
-
-# Install specific packages
-apt-get -q -y -o Dpkg::Options::="--force-overwrite" --purge install chromium-browser
-
-#rm -rf /etc/chromium-browser
-mv /etc/chromium-browser_ /etc/chromium-browser
-
-# Install Internet packages
-apt-get -q -y --purge install flashplugin-installer google-talkplugin
-
-# Install graphic
-apt-get -q -y --purge install inkscape
+source 	event.sh
 
 #Install East Asia font
 apt-get -q -y --purge install ttf-arphic-uming ttf-wqy-zenhei ttf-sazanami-mincho ttf-sazanami-gothic ttf-unfonts-core
